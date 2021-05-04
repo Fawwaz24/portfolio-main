@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>F</span>awwaz <span>S</span>awaqed</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Fawwaz <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+       <div class="col-left"> 
+         <div class="about-img"> 
+           <img src="img/about.png" alt="img"> 
+        </div> 
+      </div> 
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Creative web Developer dedicated to developing and optomizing interactive,
+          user-friendly, and feature rich websites. Leverage analytical skills and strong 
+          attention to detail in order to deliver original and efficent web solutions, provide
+          technical knowlege and expertise, build new websites from start to finish, and successfully
+          work with a team of web developers. 
+        </p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">My <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>myFlix React</h1>
+            <h2>A client-side frontend for your RESTful API, built with React</h2>
+            <p>MyFlix project is a web application developed with the MERN stack. It allows users to have access to
+              movie information, directors, and genres. Users can also make their own account, update their information,
+              and select their favorite movies. The main purpose of this project was to work with both front and back
+              end, and to really experience building a full application from start to finish. My role in this project
+              consisted of making the UI and a well structured back end.</p>
+              <div class="d-grid gap-2 d-sm-block">
+                <a class="btn btn-outline-danger" href="https://my-flixfawaz.netlify.app/" role="button">View</a>
+                <a class="btn btn-outline-danger" href="https://github.com/Fawwaz24/myFlix-client" target="_blank" role="button">Code</a>
+              </div>
+          </div>
+          <div class="project-img">
+            <img src="./img/myflix.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Chat-app</h1>
+            <h2>A JavaScript chat app built with React Native, featuring advanced functionality such as offline storage
+              or geolocation</h2>
+            <p>Chat-app provides it's users with a chat interface, and also gives them the ability to share photos and
+              their location. <br>
+            Check out screenshots of the apps functionality on my Github through the README.md file from the link below. </p>
+              <div class="d-grid gap-2 d-sm-block">
+                <!-- <a class="btn btn-outline-danger" href="#" role="button">View</a> -->
+                <a class="btn btn-outline-danger" href="https://github.com/Fawwaz24/chat-app" target="_blank" role="button">Code</a>
+              </div>
+          </div>
+          
+          <div class="project-img">
+            <a href="https://github.com/Fawwaz24">
+            <img src="./img/chatapp.png" alt="img">
+            </a>
+          </div>
+          
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Pokedex App</h1>
+            <h2>A JavaScript app that communicates with an external API</h2>
+            <p>Pokedex is a small web application that lists pokemon and displays information about each one.</p>
+            <div class="d-grid gap-2 d-sm-block">
+              <a class="btn btn-outline-danger" href="https://fawwaz24.github.io/Pokedex-jQuery/" target="_blank" role="button">View</a>
+              <a class="btn btn-outline-danger" href="https://github.com/Fawwaz24/Pokedex-jQuery" target="_blank" role="button">Code</a>
+            </div>
+          </div>
+          <div class="project-img">
+            <img src="./img/pokedex.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>flixNET</h1>
+            <h2>A spin on the myFlix app made with Angular</h2>
+            <p>flixNet is the same as the myFlix app shown above, the difference is that it is made with Angular using
+              the MEAN stack</p>
+              <div class="d-grid gap-2 d-sm-block">
+                <a class="btn btn-outline-danger" href="https://fawwaz24.github.io/myFlix-Angular/welcome" target="_blank" role="button">View</a>
+                <a class="btn btn-outline-danger" href="https://github.com/Fawwaz24/myFlix-Angular" target="_blank" role="button">Code</a>
+              </div>
+          </div>
+          <div class="project-img">
+            <img src="./img/flixnet.png" alt="img">
+          </div>
+        </div>
+        <!-- <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div> -->
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+
+        
+          <div class="contact-item">
+            <a href="https://www.linkedin.com/in/fawwaz-sawaqed-077937206/" target="_blank">
+            <div class="icon">
+              <img src="./img/linkedin.png" />
+            </div>
+            <div class="contact-info">
+              <h1>LinkedIn</h1>
+            </div>
+            </a>
+          </div>
+        
+
+          <div class="contact-item">
+          <a href="mailto:fawwazsawaqed@gmail.com" target="_blank">
+          <div class="icon">
+            <img src="./img/email.png" />
+          </div>
+          <div class="contact-info">
+            <h1>Email</h1>
+          </div>
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <a href="https://github.com/Fawwaz24" target="_blank">
+          <div class="icon">
+            <img src="./img/github.png" />
+          </div>
+          <div class="contact-info">
+            <h1> Github</h1>
+          </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>F</span>awwaz <span>S</span>awaqed</h1>
+      </div>
+      <h2></h2>
+      <p>Copyright © 2021 Fawwaz. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
